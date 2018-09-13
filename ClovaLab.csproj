@@ -4,7 +4,9 @@
     <AzureFunctionsVersion>V2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CEK.CSharp" Version="0.1.5" />
+    <PackageReference Include="CEK.CSharp" Version="0.1.6" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.DurableTask" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Graph" Version="1.10.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.19" />
   </ItemGroup>
   <ItemGroup>
